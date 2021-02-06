@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /*Responsible for aligning content vertically*/
+  min-height: 100vh;
+}
+
+.revert {
+  text-decoration: none;
+  margin-left: 100px;
+  top: 0;
+  left: 0;
+  position: fixed; /*sticks to very top of the screen */
+}
+
+.revert h6 a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #111;
+  font-weight: 800;
+}
+
+.revert h6 a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: ease-in-out 2.5s;
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+button {
+  font-size: 25px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #191716;
+}
+
+.value {
+  font-size: 75px;
+}
